@@ -5,14 +5,11 @@ import re
 from dataclasses import dataclass
 from typing import Dict, List, Optional, Tuple
 
-import matplotlib
 import numpy as np
 import pandas as pd
 import seaborn as sns
 from matplotlib import pyplot as plt
 from scipy import stats
-
-matplotlib.use("Agg")
 
 DATA_FILE = "Alternative CPA Pathways Survey_December 31, 2025_09.45.csv"
 OUTPUT_DIR = "outputs"
